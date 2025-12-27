@@ -1,21 +1,21 @@
 import React, { useEffect, useRef } from "react";
 
 const images = [
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0001.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0002.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0003.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0004.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0005.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0006.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0007.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0008.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0009.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0010.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0011.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0012.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0013.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0014.jpg",
-  "public/Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0016.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0001.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0002.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0003.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0004.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0005.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0006.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0007.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0008.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0009.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0010.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0011.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0012.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0013.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0014.jpg",
+  "Product Card (NEW) EDITING (07-10-2025) (2) (1)_pages-to-jpg-0016.jpg",
 ];
 
 const AUTO_SCROLL_DELAY = 3000;
@@ -77,7 +77,7 @@ const App: React.FC = () => {
       {/* Desktop PDF */}
       <div className="hidden md:block">
         <iframe
-          src="public/catalogue.pdf#view=FitH"
+          src="catalogue.pdf#view=FitH"
           className="pdf-frame"
         ></iframe>
       </div>
